@@ -1,0 +1,117 @@
+body{
+     margin: 0;
+}
+
+.body{
+     margin: 0;
+}
+
+.sub-body{
+     background-color: rgb(82, 28, 7);
+     color: #fff;
+     gap: 50px;
+     padding-bottom: 40px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+/*header section*/
+#logo{
+     font-size: 30px;
+
+}
+
+ul{
+     list-style-type: none;
+     display: flex;
+     margin: 0;
+     column-gap: 20px;
+     font-size: large;
+     background-color: #000;
+
+}
+
+.header{
+     display: flex;
+     
+     column-gap: 400px;
+     align-items: center;
+}
+/*content section1*/
+button{
+     padding: 10px;
+}
+.content1{
+     display: flex;
+     gap: 40px;   
+}
+
+.image1{
+     background-image: url("images/company.jpeg");
+     width: 400px;
+     height: 200px;
+     background-size:cover;
+     border-radius: 20px;
+     border: rgba(23, 200, 34, 0.5)  ;
+
+}
+/*content2*/
+
+.content2{
+     text-align: center;
+     margin-bottom: 50px;
+    
+}
+
+.image-c{
+display: flex;
+justify-content: center;
+}
+
+.img{ 
+     width: 220px;
+     height: 200;
+}
+
+img{
+     border-radius: 20px;
+}
+
+/*content3*/
+
+.content3{
+     background-color: rgb(201, 235, 223);
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     margin-bottom: 50px;
+     
+}
+
+.text1{
+     width: 500px;
+     height: auto;
+     font-size: large;
+
+}
+.stest{
+     display: flex;
+     justify-content: flex-end;
+}
+/*button container */
+.btn-container{
+     display: flex;
+     background-color: #0ff;
+     width: 50%;
+     height: auto;
+     padding: 20px;
+     justify-content: center;
+     align-items: center;
+     column-gap: 200px;
+     margin: 0px auto 0 auto ;
+     border-radius: 20px;
+}
+
+button{
+     border-radius: 10px;
+}
